@@ -129,3 +129,16 @@ if(op==3){
     document.getElementById("num").innerHTML = Number(numeroAnterior)/Number(numeroActual);
 }
 */
+
+
+
+
+
+
+let array =["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
+array.push("domingo")
+for(let i=0; i<array.length; i++){
+    console.log(array[i]);
+}
+
+
