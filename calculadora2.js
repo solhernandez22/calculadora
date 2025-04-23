@@ -34,9 +34,9 @@ function multiplicar(){
         op=2;
 }
 
-function alCuadrado(){
-    numeroAnterior=numeroActual;
-    document.getElementById("num").innerHTML = Number(numeroAnterior)*Number(numeroActual);
+function alCuadrado() {
+    numeroActual = Number(numeroActual) ** 2;
+    document.getElementById("num").innerHTML = numeroActual;
 }
 
 function porcentaje() {
