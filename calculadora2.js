@@ -67,9 +67,9 @@ function borrarC(){
     document.getElementById("num").innerHTML="0"
 }
 
-function punto() {
+function coma() {
     if (!numeroActual.includes(".")) {
-        numeroActual += ".";
+        numeroActual += ",";
         document.getElementById("num").innerHTML = numeroActual;
     }
 }
