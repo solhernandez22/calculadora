@@ -67,12 +67,12 @@ function borrarC(){
     document.getElementById("num").innerHTML="0"
 }
 
-function punto(){
-numeroActual=numeroAnterior
-
-
+function punto() {
+    if (!numeroActual.includes(".")) {
+        numeroActual += ".";
+        document.getElementById("num").innerHTML = numeroActual;
+    }
 }
-
 
 function igual(){
     document.getElementById("chiquito").innerHTML =""; 
