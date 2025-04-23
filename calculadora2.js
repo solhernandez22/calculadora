@@ -39,10 +39,9 @@ function alCuadrado(){
     document.getElementById("num").innerHTML = Number(numeroAnterior)*Number(numeroActual);
 }
 
-function porcentaje(){
-numeroAnterior=numeroActual;
-document.getElementById("num").innerHTML = Number(numeroAnterior)%Number(numeroActual)
-
+function porcentaje() {
+    numeroActual = (Number(numeroAnterior) * Number(numeroActual)) / 100;
+    document.getElementById("num").innerHTML = numeroActual;
 }
 
 
