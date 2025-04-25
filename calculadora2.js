@@ -135,10 +135,34 @@ if(op==3){
 
 
 
-let array =["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
-array.push("domingo")
-for(let i=0; i<array.length; i++){
-    console.log(array[i]);
+
+/*let array =["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
+let arrayvacio =[];
+
+while(array.length>0){
+    arrayvacio.push(array.pop());
+console.log(arrayvacio);
 }
+
+alert(arrayvacio);*/
+
+
+/* imprime los numeros pares del 0 al 1000*/
+
+for(let i=0; i<500; i++){
+    
+        console.log(i*2);
+    }
+
+    /* suma todos los numeros*/
+let suma=0;
+for(let i=0; i<=1000; i+=2)
+{
+    suma+=i;
+    console.log(suma);
+}
+
+
+
 
 
