@@ -1,0 +1,12 @@
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cc1818;
+    border-radius: 20px;
+}
+
+#resultado {
+
+    font-size: 24px;
+    font-weight: bold;
+} 
